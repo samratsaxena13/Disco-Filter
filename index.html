@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Disco Filter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+    body {
+      background-color: #28282B;
+      font-family: 'Montserrat';
+      color: white;
+      text-align: center;
+    }
+
+    #on_button:active {
+      background-color: white;
+      color: green;
+    }
+
+    #off_button:active {
+      background-color: white;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <h1>
+    &#10024;
+    Disco Filter
+    &#10024;
+  </h1>
+  <button onclick="on()" id="on_button" class="btn btn-success">RESUME</button>
+  <button onclick="off()" id="off_button" class="btn btn-danger">PAUSE</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
